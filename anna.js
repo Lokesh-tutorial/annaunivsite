@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $("#l1").slideUp("slow");  
+    $(".q1").mouseenter(function(){
+        $("#l1").slideDown("slow");  
+    });
+    $(".q1").mouseleave(function(){
+        $("#l1").slideUp("slow");  
+    });
+});
